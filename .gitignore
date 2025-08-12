@@ -162,7 +162,6 @@ cython_debug/
 paths.yaml
 *.pkl 
 *.DS_Store
-*.png
 *.plk
 *.zip
 *.rar
