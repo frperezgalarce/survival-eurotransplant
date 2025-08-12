@@ -43,53 +43,6 @@ If you prefer using **Conda** for environment management, follow these steps:
    pip install -r requirements.txt
    ```
 
-### 2. Using Python Virtual Environment
-
-If you prefer using a **Python virtual environment** (using `venv`), follow these steps:
-
-#### Steps to Create Python Virtual Environment:
-
-1. **Install Python 3.12.5**:  
-   Ensure that Python 3.12.5 is installed. You can download it from the official Python website [here](https://www.python.org/downloads/release/python-3125/).
-
-2. **Create a Virtual Environment**:  
-   Run the following command to create a new virtual environment:
-
-   ```bash
-   python3 -m venv myenv
-   ```
-
-   Replace `myenv` with the desired name for your environment.
-
-3. **Activate the Virtual Environment**:  
-   - On **macOS/Linux**, activate the virtual environment by running:
-
-     ```bash
-     source myenv/bin/activate
-     ```
-
-   - On **Windows**, activate the virtual environment by running:
-
-     ```bash
-     myenv\Scripts\activate
-     ```
-
-4. **Install Dependencies**:  
-   Once the virtual environment is activated, install the necessary packages by running:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-### Verifying Installation
-
-To verify that the environment has been set up correctly and the necessary dependencies are installed, run the following command to check the installed packages:
-
-```bash
-pip freeze
-```
-
-This should display a list of installed packages, which should match the packages listed in the `requirements.txt` file.
 
 ### Deactivating the Environment
 
